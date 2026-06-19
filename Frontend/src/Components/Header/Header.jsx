@@ -123,7 +123,7 @@ const Header = () => {
     { id: 'blog', label: 'Blog', href: '/blogs' }, 
     { id: 'founderKit', label: 'Community', href: '/founderKit' },
     { id: 'about', label: 'About', href: '/about' },
-    { id: 'success', label: 'Success', href: '/success' },
+    //{ id: 'success', label: 'Success', href: '/success' },
     { id: 'explore', label: 'Explore', href: '/explore' }
 
 

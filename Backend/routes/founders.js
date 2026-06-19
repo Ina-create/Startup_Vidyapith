@@ -1,5 +1,6 @@
 // routes/founders.js - UPDATED VERSION
 const express = require('express');
+const crypto = require('crypto');
 const router = express.Router();
 const Founder = require('../models/Founder');
 const User = require('../models/User');

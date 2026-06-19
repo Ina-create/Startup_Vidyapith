@@ -1,0 +1,21 @@
+# Ignore environment files (THIS SOLVES YOUR MONGODB ERROR!)
+
+
+# Ignore Node modules (we install fresh inside the container)
+node_modules
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Docker files
+Dockerfile
+.dockerignore
+
+# Ignore Git files
+.git
+.gitignore

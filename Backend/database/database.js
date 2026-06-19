@@ -1,4 +1,5 @@
 // backend/database/database.js
+const crypto = require('crypto');
 const mongoose = require('mongoose');
 
 const connectDB = async () => {
